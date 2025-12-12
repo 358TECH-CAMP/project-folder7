@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>講師プロフィール登録</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="profile-card">
+    <div class="profile-img" id="previewBox">
+        <img id="previewImg" src="" alt="" style="display:none;" />
+    </div>
+    <label for="imgInput" class="img-label">画像を選択</label>
+    <input id="imgInput" type="file" accept="image/*">
+
+    <form id="registerForm">
+        <label>氏名</label>
+        <input type="text" id="nameInput" placeholder="例：山田 太郎" required>
+
+        <label>専門分野</label>
+        <input type="text" id="fieldInput" placeholder="例：Python / Web開発" required>
+
+        <label>自己紹介</label>
+        <textarea id="bioInput" placeholder="例：フロントエンジニア歴５年..." required></textarea>
+
+        <button type="submit" class="submit-btn" id="submitBtn">登録</button>
+        <button type="button" class="submit-btn" id="deleteBtn" style="background:#e53935;margin-top:10px;display:none;">削除</button>
+    </form>
+</div>
+
+<script src="register.js"></script>
+</body>
+</html>

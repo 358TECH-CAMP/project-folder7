@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>全体の講師スケジュール一覧</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a href="register.html" class="top-right-btn" id="registerBtn">講師登録</a>
+
+<div class="title-bar">全体の講師スケジュール一覧</div>
+
+<select id="teacherSelect" class="select-teacher">
+    <option value="">全講師表示</option>
+</select>
+
+<div class="schedule-wrapper">
+  <table>
+    <thead>
+      <tr>
+        <th>日付</th>
+        <th>時間</th>
+        <th>講師名</th>
+      </tr>
+    </thead>
+    <tbody id="scheduleList"></tbody>
+  </table>
+</div>
+
+<script src="list.js"></script>
+</body>
+</html>

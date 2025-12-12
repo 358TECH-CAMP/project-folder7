@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>年末年始スケジュール</title>
+<link rel="stylesheet" href="style.css">
+<style>
+.current-teacher {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    background: #0ea35a;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 6px;
+    font-weight: bold;
+    z-index: 1000;
+}
+</style>
+</head>
+<body>
+
+<div class="current-teacher" id="currentTeacherDisplay"></div>
+
+<div class="title-bar">年末年始のスケジュール（講師用）</div>
+
+<div class="schedule-wrapper">
+<table>
+  <thead>
+    <tr>
+      <th class="time-cell">時間</th>
+      <th>12/31</th>
+      <th>1/1</th>
+      <th>1/2</th>
+      <th>1/3</th>
+    </tr>
+  </thead>
+  <tbody id="time-rows"></tbody>
+</table>
+</div>
+
+<button id="saveBtn" class="top-right-btn">保存</button>
+
+<script src="schedule.js"></script>
+</body>
+</html>
