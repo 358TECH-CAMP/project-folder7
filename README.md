@@ -36,26 +36,32 @@
 
 * **講師プロフィール登録・編集・削除機能**
   [https://gyazo.com/cd4db8255b4539fca5c730187121c6f9](https://gyazo.com/cd4db8255b4539fca5c730187121c6f9)
+  
   講師の専門分野や自己紹介を登録でき、受講生が「誰に相談できるのか」を事前に把握できます。
 
 * **プロフィール画像の登録・プレビュー表示**
   [https://gyazo.com/28334adcfcfcee2c6ffa5b194ce4ffa6](https://gyazo.com/28334adcfcfcee2c6ffa5b194ce4ffa6)
+  
   顔が見えることで、心理的な距離を縮め、相談へのハードルを下げる工夫をしています。
 
 * **講師ごとのスケジュール登録機能（30分単位）**
   [https://gyazo.com/ff5a8d5cebb2fd90ae98bb356dcc3bbb](https://gyazo.com/ff5a8d5cebb2fd90ae98bb356dcc3bbb)
+  
   対応可能時間を細かく管理でき、実際のサポート運用を想定した設計にしています。
 
 * **全講師スケジュール一覧表示機能**
   [https://gyazo.com/74bd4544127b4bf65cc5aa8ca191f46b](https://gyazo.com/74bd4544127b4bf65cc5aa8ca191f46b)
+  
   受講生が一目で全体状況を把握できるよう、日付 × 時間帯で可視化しています。
 
 * **講師選択によるスケジュール絞り込み**
   [https://gyazo.com/7af8755eb4596c84cb3006590bd821b8](https://gyazo.com/7af8755eb4596c84cb3006590bd821b8)
+  
   特定の講師に絞って確認でき、実用性を高めています。
 
 * **本人のみ編集可能な権限制御**
   [https://gyazo.com/527230b54fbcbb069df8ced9dfce5d8c](https://gyazo.com/527230b54fbcbb069df8ced9dfce5d8c)
+  
   登録者本人だけが情報を編集できるようにし、データの信頼性を担保しています。
 
 ## 実装予定の機能
